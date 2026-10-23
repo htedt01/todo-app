@@ -38,7 +38,7 @@ def aide():
 
 def main():
     if len(sys.argv) < 2:
-        aide();
+        aide()
         return
     commande = sys.argv[1]
     if commande == "ajouter":
